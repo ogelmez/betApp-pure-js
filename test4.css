@@ -1,0 +1,141 @@
+html,body{
+    height: 100vh;
+    margin: 0px;
+}
+.container{
+
+    display:flex;
+    flex-direction: column;
+    background-color:#f7f7f7;
+    width: 489px;
+    height: 600px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 3px;
+    border:1px solid gray;
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    background-color:#f7f7f7;
+    width: 450px;
+    height: 475px;
+    padding:20px;
+}
+.income {
+    display:flex;
+    flex-direction: row;
+    background-color:white;
+    width: 450px;
+    height: 50px;
+    padding:20px;
+    border-top: 1px solid gray;
+    justify-content: space-between;
+    align-items: center;
+
+}
+footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#FFC213;
+    width: 450px;
+    height: 70px;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+header{
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 20px 18px 12px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.beat{
+    display: flex;
+    flex-direction: column;
+    height:23%;
+}
+
+.nesine-icon{
+    width: 165px;
+    height: 69px;
+}
+
+.match-percents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.side{
+    cursor: pointer;
+    padding: 0px 15px;
+    background-color: black;
+    border: 1px solid black;
+    color:white;
+}
+
+.percent{
+    padding: 0px 5px;
+    background-color:white ;
+    border: 1px solid black;
+}
+
+.percent-change {
+    padding: 0px 5px;
+    background-color:yellow ;
+    border: 1px solid black;
+}
+
+.rating{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid gray ;
+    color: gray;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.rating-last {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: gray;
+    font-size: 12px;
+  } 
+
+  .match-name{
+      font-size: 17px;
+      display:flex;
+      flex-direction: row;
+      margin-right: auto;
+  }
+  
+  .sums{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+  }
+  select{
+      height:40px;
+  }
+
+  .percent-change{
+    padding: 0px 5px;
+    background-color:yellow ;
+    border: 1px solid black;
+}
+
+.dropdown{
+    width: 50px;
+}
